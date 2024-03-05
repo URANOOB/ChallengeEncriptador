@@ -1,10 +1,9 @@
-const condition = {
-    'e' : 'enter',
-    'i' : 'imes', 
-    'a' : 'ai',
-    'o' : 'ober', 
-    'u' : 'ufat'
-};
-
-
-console.log(condition['e']);
+function desencriptarTexto(textoEncriptado) {
+    // Definir las reglas de desencriptación
+    const reglasDesencriptacion = {
+        'enter': 'e',
+        'imes': 'i',
+        'ai': 'a',
+        'ober': 'o',
+        'ufat': 'u'
+    };
